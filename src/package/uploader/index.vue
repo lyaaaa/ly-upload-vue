@@ -1,6 +1,6 @@
 <template>
   <div class="uploader">
-    <span>uploader12312</span>
+    <span>uploader</span>
   </div>
 </template>
 
