@@ -1,7 +1,8 @@
 #dockerfile
 
 FROM nginx
+ADD nginx.conf /etc/nginx/nginx.conf
+ADD default.conf /etc/nginx/conf.d/default.conf
+ADD dist /usr/share/nginx/html
 
-COPY ./dist /usr/share/
-
-EXPOSE 8083
+EXPOSE 80
