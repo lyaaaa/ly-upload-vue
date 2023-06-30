@@ -3,7 +3,7 @@
     [
       "import",
       {
-        "libraryName": "ant-design-vue",
+        "libraryName": "@gaoding/gd-antd",
         "libraryDirectory": "es",
         "style": "css"
       }
